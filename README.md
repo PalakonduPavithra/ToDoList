@@ -75,12 +75,12 @@ CREATE TABLE todo (
 
 ## Usage
 
-1.Sign Up: Create a new user account.
-2.Log In: Log in with your credentials.
-3.Create To-Do: Add new to-do items.
-4.View To-Dos: View all your to-do items.
-5.Update To-Do: Edit an existing to-do item.
-6.Delete To-Do: Remove a to-do item.
+1. Sign Up: Create a new user account.
+2. Log In: Log in with your credentials.
+3. Create To-Do: Add new to-do items.
+4. View To-Dos: View all your to-do items.
+5. Update To-Do: Edit an existing to-do item.
+6. Delete To-Do: Remove a to-do item.
 
 ## Project Structure
 
