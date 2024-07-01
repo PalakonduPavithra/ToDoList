@@ -75,12 +75,12 @@ CREATE TABLE todo (
 
 ## Usage
 
-1. Sign Up: Create a new user account.
-2. Log In: Log in with your credentials.
-3. Create To-Do: Add new to-do items.
-4. View To-Dos: View all your to-do items.
-5. Update To-Do: Edit an existing to-do item.
-6. Delete To-Do: Remove a to-do item.
+1. **Sign Up**: Create a new user account.
+2. **Log In**: Log in with your credentials.
+3. **Create To-Do**: Add new to-do items.
+4. **View To-Dos**: View all your to-do items.
+5. **Update To-Do**: Edit an existing to-do item.
+6. **Delete To-Do**: Remove a to-do item.
 
 ## Project Structure
 
@@ -94,8 +94,8 @@ todo-app/
 ├── package.json
 ├── package-lock.json
 └── README.md
-* public/: Contains static files (HTML, CSS, JavaScript).
-* server.js: Node.js server file.
-* package.json: Project metadata and dependencies.
-* package-lock.json: Locked versions of project dependencies.
-* README.md: Project documentation.
+* **public/**: Contains static files (HTML, CSS, JavaScript).
+* **server.js**: Node.js server file.
+* **package.json**: Project metadata and dependencies.
+* **package-lock.json**: Locked versions of project dependencies.
+* **README.md**: Project documentation.
