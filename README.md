@@ -35,17 +35,17 @@ Before you begin, ensure you have the following installed on your system:
 
 ## Installation
 
-1. Clone the repository:
+* Clone the repository:
 
    ```bash
    git clone https://github.com/PalakonduPavithra/ToDoList.git
    cd todo-app
-2. Install the dependencies
+* Install the dependencies
    npm install
-3. setup MySQL database
-   . Start MySQL server and log in using MySQL client:
+* setup MySQL database
+   - Start MySQL server and log in using MySQL client:
      mysql -u root -p
-   . Create a new database and tables:
+   - Create a new database and tables:
      CREATE DATABASE todo_app;
 USE todo_app;
 
@@ -65,6 +65,7 @@ CREATE TABLE todo (
   status ENUM('todo', 'inprogress', 'completed'),
   FOREIGN KEY (userid) REFERENCES userdetails(userid)
 );
+
 4. Configure the database connection
    Edit 'server.js' and update the MySQL connection details with your database credentials.
 5. Start the server:
@@ -72,7 +73,7 @@ CREATE TABLE todo (
    Open a web browser and go to 'http://localhost:3000' to access the application.
 
 
-**Usage**
+## Usage
 
 1.Sign Up: Create a new user account.
 2.Log In: Log in with your credentials.
@@ -81,7 +82,7 @@ CREATE TABLE todo (
 5.Update To-Do: Edit an existing to-do item.
 6.Delete To-Do: Remove a to-do item.
 
-**Project Structure**
+## Project Structure
 
 todo-app/
 ├── node_modules/
