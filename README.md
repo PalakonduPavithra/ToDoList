@@ -35,14 +35,14 @@ Before you begin, ensure you have the following installed on your system:
 
 ## Installation
 
-* Clone the repository:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/PalakonduPavithra/ToDoList.git
    cd todo-app
-* Install the dependencies
+2. Install the dependencies
    npm install
-* setup MySQL database
+3. setup MySQL database
    - Start MySQL server and log in using MySQL client:
      mysql -u root -p
    - Create a new database and tables:
