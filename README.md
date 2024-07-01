@@ -98,15 +98,25 @@ CREATE TABLE todo (
 ## Project Structure
 
 todo-app/
+
 ├── node_modules/
+
 ├── public/
+
 │   ├── index.html
+
 │   ├── styles.css
+
 │   └── scripts.js
+
 ├── server.js
+
 ├── package.json
+
 ├── package-lock.json
+
 └── README.md
+
 * **public/**: Contains static files (HTML, CSS, JavaScript).
 * **server.js**: Node.js server file.
 * **package.json**: Project metadata and dependencies.
