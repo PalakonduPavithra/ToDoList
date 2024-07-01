@@ -50,20 +50,33 @@ Before you begin, ensure you have the following installed on your system:
 USE todo_app;
 
 CREATE TABLE userdetails (
+
   userid INT AUTO_INCREMENT PRIMARY KEY,
+  
   username VARCHAR(255) NOT NULL,
+  
   password VARCHAR(255) NOT NULL
+  
 );
 
 CREATE TABLE todo (
+
   todoid INT AUTO_INCREMENT PRIMARY KEY,
+  
   userid INT NOT NULL,
+  
   titleId INT NOT NULL,
+  
   title VARCHAR(255) NOT NULL,
+  
   description TEXT NOT NULL,
+  
   due_date DATE,
+  
   status ENUM('todo', 'inprogress', 'completed'),
+  
   FOREIGN KEY (userid) REFERENCES userdetails(userid)
+  
 );
 
 4. Configure the database connection
